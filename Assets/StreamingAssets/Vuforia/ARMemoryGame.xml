@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="lion2" size="50.000000 39.166668" />
+    <ImageTarget name="lion" size="50.000000 39.166668" />
+    <ImageTarget name="fox" size="50.000000 49.252716" />
+    <ImageTarget name="fox2" size="50.000000 49.252716" />
     <ImageTarget name="monkey2" size="50.000000 63.492062" />
     <ImageTarget name="aligator2" size="50.000000 28.125000" />
-    <ImageTarget name="lion2" size="50.000000 53.115726" />
-    <ImageTarget name="fox2" size="50.000000 41.379311" />
-    <ImageTarget name="lion" size="50.000000 53.115726" />
     <ImageTarget name="monkey" size="50.000000 63.492062" />
     <ImageTarget name="aligator" size="50.000000 28.125000" />
-    <ImageTarget name="fox" size="50.000000 41.379311" />
   </Tracking>
 </QCARConfig>
