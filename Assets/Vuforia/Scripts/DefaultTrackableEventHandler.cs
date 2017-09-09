@@ -4,6 +4,7 @@ All Rights Reserved.
 Confidential and Proprietary - Protected under copyright and other laws.
 ==============================================================================*/
 
+using Assets.Scripts;
 using UnityEngine;
 
 namespace Vuforia
@@ -84,6 +85,8 @@ namespace Vuforia
             }
 
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
+            GameManager.Instance.ElementFound(mTrackableBehaviour.TrackableName);
+
         }
 
 
@@ -105,6 +108,7 @@ namespace Vuforia
             }
 
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
+            GameManager.Instance.ElementLost(mTrackableBehaviour.TrackableName);
         }
 
         #endregion // PRIVATE_METHODS
